@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escafandra.services.API", "escafandra.services.API\escafandra.services.API.csproj", "{F4A78417-E7CE-4DCC-AD90-665545F06B05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escafandra.services.Application", "escafandra.services.Application\escafandra.services.Application.csproj", "{2889F52B-E4C9-422F-B916-0BEAE3F14D03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escafandra.services.Domain", "escafandra.services.Domain\escafandra.services.Domain.csproj", "{7C5CFF65-8344-4645-9FFE-06E0F4941BEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escafandra.services.Infrastructure", "escafandra.services.Infrastructure\escafandra.services.Infrastructure.csproj", "{127788B2-467F-4858-9ECF-5D39B1719E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escafandra.services.Shared", "escafandra.services.Shared\escafandra.services.Shared.csproj", "{E709C712-2E95-42E8-835D-2AD5F5B5D7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "escafandra.services.Test", "escafandra.services.Test\escafandra.services.Test.csproj", "{7EA8CA54-C7DD-4BA1-A38C-913CEF8D025E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A78417-E7CE-4DCC-AD90-665545F06B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A78417-E7CE-4DCC-AD90-665545F06B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A78417-E7CE-4DCC-AD90-665545F06B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A78417-E7CE-4DCC-AD90-665545F06B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2889F52B-E4C9-422F-B916-0BEAE3F14D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2889F52B-E4C9-422F-B916-0BEAE3F14D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2889F52B-E4C9-422F-B916-0BEAE3F14D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2889F52B-E4C9-422F-B916-0BEAE3F14D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5CFF65-8344-4645-9FFE-06E0F4941BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5CFF65-8344-4645-9FFE-06E0F4941BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5CFF65-8344-4645-9FFE-06E0F4941BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5CFF65-8344-4645-9FFE-06E0F4941BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127788B2-467F-4858-9ECF-5D39B1719E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127788B2-467F-4858-9ECF-5D39B1719E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127788B2-467F-4858-9ECF-5D39B1719E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127788B2-467F-4858-9ECF-5D39B1719E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E709C712-2E95-42E8-835D-2AD5F5B5D7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E709C712-2E95-42E8-835D-2AD5F5B5D7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E709C712-2E95-42E8-835D-2AD5F5B5D7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E709C712-2E95-42E8-835D-2AD5F5B5D7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA8CA54-C7DD-4BA1-A38C-913CEF8D025E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA8CA54-C7DD-4BA1-A38C-913CEF8D025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA8CA54-C7DD-4BA1-A38C-913CEF8D025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA8CA54-C7DD-4BA1-A38C-913CEF8D025E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A66C7A15-9A43-4D7E-8BAB-154C6512A51C}
+	EndGlobalSection
+EndGlobal
