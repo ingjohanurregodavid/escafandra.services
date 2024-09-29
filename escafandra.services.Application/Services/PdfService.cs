@@ -95,14 +95,6 @@ namespace escafandra.services.Application.Services
                 throw new KeyNotFoundException("PDF not found.");
             }
 
-            var certificate = GetCertificate();
-            var electronicSignatureFactory = new ElectronicSignatureFactory(certificate);
-            var signature = await electronicSignatureFactory.CreateSignatureAsync(pdfDocument);
-
-            pdfDocument.SignedBy = signature;
-            pdfDocument.IsSigned = true;
-            pdfDocument.SignedDate = DateTime.UtcNow;
-
             return new PdfResponseDto
             {
                 Id = pdfDocument.Id,
